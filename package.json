@@ -1,6 +1,6 @@
 {
-  "name": "react-avatar-edit",
-  "version": "1.2.0",
+  "name": "react-avatar-controller",
+  "version": "1.0.0",
   "description": "ReactJS component to upload, crop, and preview avatars",
   "main": "lib/react-avatar.js",
   "types": "src/avatar.d.ts",
@@ -11,22 +11,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirill3333/react-avatar.git"
+    "url": "git+https://github.com/imleykin/react-avatar.git"
   },
   "author": {
-    "name": "Kirill Novikov",
-    "email": "kirillpodium@gmail.com"
+    "name": "Ilya Leykin",
+    "email": "imleykin@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kirill3333/react-avatar/issues"
+    "url": "https://github.com/imleykin/react-avatar/issues"
   },
   "keywords": [
     "avatar",
     "react",
     "canvas"
   ],
-  "homepage": "https://github.com/kirill3333/react-avatar#readme",
+  "homepage": "https://github.com/imleykin/react-avatar#readme",
   "dependencies": {
     "blueimp-load-image": "^5.14.0",
     "exif-js": "^2.3.0",

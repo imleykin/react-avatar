@@ -1,14 +1,6 @@
 # react-avatar
 👤 Load, crop and preview avatar with ReactJS component 
 
-[![npm version](https://badge.fury.io/js/react-avatar-edit.svg)](https://badge.fury.io/js/react-avatar-edit)
-
-## Demo
-
-![](https://media.giphy.com/media/3o7aD1fCeJxzNu2uYg/giphy.gif)
-
-## [Demo website](https://kirill3333.github.io/react-avatar/)
-
 ## Install
 
 ```npm i react-avatar-edit```

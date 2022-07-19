@@ -85,6 +85,7 @@ ReactDOM.render(<App /> , document.getElementById('root'))
 | label                  | String           | Label text (default: Choose a file)
 | labelStyle             | Object           | The style object for preview label (use camel case for css properties fore example: fontSize)
 | borderStyle            | Object           | The style for object border preview (use camel case for css properties fore example: fontSize)
+| containerClassname     | string           | The container classname
 | onImageLoad(image)     | Function         | Invoked when image based on src prop finish loading
 | onCrop(image)          | Function         | Invoked when user drag&drop event stop and return cropped image in base64 string
 | onBeforeFileLoad(file) | Function         | Invoked when user before upload file with internal file loader (etc. check file size)

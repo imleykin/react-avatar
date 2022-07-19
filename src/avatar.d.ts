@@ -140,6 +140,11 @@ export interface Props {
   borderStyle?: React.CSSProperties;
 
   /**
+   * The container classname
+   */
+  containerClassname?: string;
+
+  /**
    * Invoked when image based on src prop finish loading
    */
   onImageLoad?: (data: HTMLImageElement) => void;

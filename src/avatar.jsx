@@ -12,6 +12,7 @@ import 'konva/lib/DragAndDrop'
 class Avatar extends React.Component {
 
   static defaultProps = {
+    containerClassname: undefined,
     shadingColor: 'grey',
     shadingOpacity: 0.6,
     cropColor: 'white',
@@ -86,6 +87,10 @@ class Avatar extends React.Component {
 
   get closeIconColor() {
     return this.props.closeIconColor
+  }
+
+  get containerClassname() {
+    return this.props.containerClassname
   }
 
   get closeIcon() {
@@ -551,7 +556,7 @@ class Avatar extends React.Component {
     };
 
     return (
-      <div>
+      <div className={this.containerClassname}>
         {
           this.state.showLoader
             ? <div style={borderStyle}>

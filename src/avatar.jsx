@@ -222,16 +222,6 @@ class Avatar extends React.Component {
     if (prevProps.src !== this.props.src) {
       this.image.src = this.props.src
     }
-
-    // reinit in case important props have been changed
-    if (
-      prevProps.imageHeight !== this.props.imageHeight ||
-      prevProps.imageWidth !== this.props.imageWidth ||
-      prevProps.width !== this.props.width ||
-      prevProps.height !== this.props.height
-    ) {
-      this.init();
-    }
   }
 
   onFileLoad(e) {

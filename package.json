@@ -1,6 +1,6 @@
 {
   "name": "react-avatar-controller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ReactJS component to upload, crop, and preview avatars",
   "main": "lib/react-avatar.js",
   "types": "src/avatar.d.ts",
